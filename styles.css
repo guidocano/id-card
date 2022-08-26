@@ -1,0 +1,87 @@
+html {
+    background-color: #141414;
+    background-image: url("image.png");
+    background-size: cover;
+}
+
+body {
+    margin: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    /* font-family: 'Comfortaa', cursive; */
+    color: rgb(240, 240, 240);
+    font-size: 80px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #318ad3;
+}
+
+p.description {
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(240, 240, 240);
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+span.tag-h1{
+    font-family: 'IBM Plex Mono', monospace;
+    color:  #318ad3;
+    font-size: 40px;
+    font-weight: 100;
+    font-style:normal
+}
+
+span.tag-symbol-h1{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #808080;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+span.tag-symbol-p{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #808080;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+span.tag-p{
+    font-family: 'IBM Plex Mono', monospace;
+    color:  #318ad3 ;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+i {
+    font-size: 40px;
+}
+
+#creative-button:hover {
+    cursor: pointer;
+    color: #318ad3;
+}
+
+#bulb-button:hover {
+    cursor: pointer;
+    color: #318ad3;
+}
+
+#english-button:hover {
+    cursor: pointer;
+    color: #318ad3;
+}
