@@ -61,7 +61,7 @@ span.tag-symbol-p{
 
 span.tag-p{
     font-family: 'IBM Plex Mono', monospace;
-    color:  #318ad3 ;
+    color:  #2a80c7;
     font-size: 30px;
     font-weight: 100;
     font-style: normal;
@@ -71,17 +71,60 @@ i {
     font-size: 40px;
 }
 
+#creative-button {
+    background-color: inherit;
+    border: none;
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(240, 240, 240);
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+}
+
 #creative-button:hover {
     cursor: pointer;
-    color: #318ad3;
+    color: rgb(202, 104, 69)
 }
 
 #bulb-button:hover {
     cursor: pointer;
-    color: #318ad3;
+    color: #aa4ccf;
 }
 
 #english-button:hover {
     cursor: pointer;
-    color: #318ad3;
+    color: #74c0ff;
+}
+
+#tecnologies:hover {
+    color: rgb(50, 104, 54)
+}
+
+#web-dev:hover {
+    /* color: rgb(207, 171, 54) */
+    color: #74c0ff;
+}
+
+.cat {
+    color: white;
+}
+
+.cat:nth-child(even){
+    color: rgb(202, 104, 69);
+}
+
+.cat:nth-child(3n){
+    color: #808080;
+}
+
+.cat:nth-child(6n){
+    color: #202020;
+}
+
+.cat:nth-child(7n){
+    color: #5c3a2b;
+}
+
+.cat:nth-child(14n){
+    color: #2a80c7;
 }
