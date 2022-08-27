@@ -18,6 +18,16 @@ h1 {
     font-style: italic;
 }
 
+#title-guido:hover, .btn-no:hover,
+#web-title-content:hover {
+    color: #318ad3;
+    cursor: pointer;
+}
+
+/* #new-title:hover {
+    color: none!important;
+} */
+
 a {
     text-decoration: none;
     color: inherit;
@@ -126,5 +136,58 @@ i {
 }
 
 .cat:nth-child(14n){
+    color: #2a80c7;
+}
+
+
+/* TECNOLOGIES ICONS */
+
+#icon-react:hover, #icon-jquery:hover, #icon-js:hover, 
+#icon-css:hover, #icon-python:hover, #icon-sql:hover, #icon-git:hover {
+    cursor: pointer;
+    color: rgb(50, 104, 54)
+}
+
+.react {
+    color: #74c0ff;
+    font-size: 60px;
+}
+
+.jquery {
+    color: #318ad3;
+    font-size: 60px;
+}
+
+.js {
+    color: rgb(255, 252, 87);
+    font-size: 60px;
+}
+
+.css {
+    color: #3660eb;
+    font-size: 60px;
+}
+
+.python {
+    color: #318ad3;
+    font-size: 60px;
+}
+
+.sql {
+    color: rgb(202, 104, 69);
+    font-size: 54px;
+}
+
+.git {
+    color: rgb(197, 82, 40);
+    font-size: 60px;
+}
+
+.react:hover, .jquery:hover, .js:hover, .css:hover, .python:hover, .sql:hover, .git:hover{
+    color: rgb(50, 104, 54)
+}
+
+.fa-linkedin {
+    font-size: 60px;
     color: #2a80c7;
 }
