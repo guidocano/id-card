@@ -202,3 +202,22 @@ i {
     font-size: 60px;
     color: #2a80c7;
 }
+
+
+@media screen and (max-width: 640px) {
+    html {
+        width: 99vw;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p.description {
+        font-size: 30px;
+    }
+
+    #creative-button {
+        font-size: 30px;
+    }
+  }
