@@ -2,11 +2,23 @@ html {
     background-color: #141414;
     background-image: url("image.png");
     background-size: cover;
+    height: 99%;
+    width: 99vw;
+    position: relative;
+    border: red 1px solid;
 }
 
 body {
-    margin: 50px;
     text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100vw;
 }
 
 h1 {
