@@ -220,4 +220,12 @@ i {
     #creative-button {
         font-size: 30px;
     }
+
+    i {
+        font-size: 30px;
+    }
+
+    .react, .jquery, .js, .css, .python, .sql, .git {
+        font-size: 40px;
+    }
   }
